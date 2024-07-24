@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Museu De Arte</title>
+		<meta charset="utf-8">
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+        
+        <!--Estilo customizado-->
+		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+        <!--[if lt IE 9]>
+	        <script src="">
+                https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js
+            </script>
+        <![endif]-->
+
+	</head>
+
+	<body>
+		
+        <div id="container"> <!-- Incio Container -->
+
+			<header> <!-- Incio Cabeçalho -->
+
+				<div id="logo">
+					<h1><a href="">Museu De Arte</a></h1>
+				</div>
+
+				<nav> <!-- Incio Navegação -->
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Exposições</a></li>
+						<li><a href="">Pesquisas</a></li>
+						<li><a href="">Acervo</a></li>
+						<li><a href="">Vídeos</a></li>
+						<li><a href="">Fotos</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav> <!-- Fim Navegação -->
+
+			</header> <!-- Fim Cabeçalho -->
+
+			<div id="principal"> <!-- Inicio Principal -->
+
+				<div id="conteudo"> <!--Inicio Conteudo-->
+
+					<section id="capa">
+						<img src="Imagens/museu.png" height="320" width="710">
+					</section>
+
+					<section id="postagens">
+
+						<article id="video">
+
+							<h3>Conheça o Museu</h3>
+
+							<iframe width="310" height="170x" 
+							src="https://www.youtube.com/embed/IkHA0Ih6N_k?si=EjWLQikj9PkZtaxB" 
+							title="YouTube video player" frameborder="0" 
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+						</article>
+
+						<article id="mapa">
+
+							<h3>Mapa: Encontre o Museu</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.195697374655!2d-46.658456824669926!3d-23.561413978799674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1721776222422!5m2!1spt-BR!2sbr" 
+							width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" 
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+						</article>
+
+						<article id="exposicoes">
+
+							<h3>Exposições</h3>
+							<ul>
+								<li><a href="">Catherine Opie: o gênero do retrato</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Lia D Castro: em todo e nenhum lugar</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Sala de vídeo: Ventura Profana</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Leonilson: Agora e as oportunidades</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Francis Bacon: a beleza da carne</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Sala de vídeo: Kang Seung Lee</a></li>
+							</ul>
+							<ul>
+								<li><a href=""><strong>Veja Todos (50)</strong></a></li>
+							</ul>
+
+						</article>
+
+						<article id="historia">
+
+							<h3>75 Anos de história</h3>
+							<p>
+								O MASP, Museu de Arte de São Paulo Assis Chateaubriand, comemora o aniversário de 
+								75 anos com atrações especiais para os visitantes no próximo sábado, dia 1º de 
+								outubro. Para celebrar a data com o público, cada ingresso comprado dará direito a 
+								um acompanhante para visitar o museu. Também no sábado, o museu oferecerá o 
+								desconto de 30% na adesão de todos os planos do programa.
+							</p>
+							<a href=""><strong>Leia Mais</strong></a>
+
+						</article>
+
+					</section>
+
+				</div>
+
+				<aside>
+					<section id="horarios">
+						<img src="Imagens/horarios.png" width="350" height="320">
+					</section>
+
+					<section id="visita"> <!-- Inicio Visita -->
+
+						<h4>Faça uma Visita</h4>
+						<form>
+
+							<fieldset>
+								<legend>Selecione uma Data</legend>
+
+								<label for="data">Data</label>
+								<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+								<label for="qtd">Qtd de Pessoas</label>
+								<input class="campo" style="width: 20px;" type="text" id="qtd" value="1">
+							</fieldset>
+
+							<input class="botao" type="submit" value="Verificar Disponibilidade">
+
+						</form>
+
+					</section> <!-- Fim Visita -->
+
+					<section id="galeria"> <!-- Inicio galeria -->
+
+						<h4>Galeria de Fotos</h4>
+
+						<a href="">
+							<img src="Imagens/imagem1.jpg" height="93" width="93">
+						</a>
+
+						<a href="">
+							<img src="Imagens/imagem2.jpg" height="93" width="93">
+						</a>
+
+						<a href="">
+							<img src="Imagens/imagem3.jpg" height="93" width="93">
+						</a>
+
+						<a href="">
+							<img src="Imagens/imagem4.jpg" height="93" width="93">
+						</a>
+
+					</section>  <!-- Fim galeria -->
+
+				</aside>
+
+				<footer style="clear: both;">
+					<p>
+						<a href="">Home</a>
+						<a href="">Exposições</a>
+						<a href="">Pesquisas</a>
+						<a href="">Acervo</a>
+						<a href="">Vídeos</a>
+						<a href="">Fotos</a>
+						<a href="">Contato</a>
+					</p>
+					<p>
+						2024 <a href="https://masp.org.br/">MASP</a>- Todos os direito reservados.
+					</p>
+				</footer>
+
+			</div> <!-- Fim Principal -->
+
+		</div> <!-- Fim Container -->
+
+	</body>
+</html>
