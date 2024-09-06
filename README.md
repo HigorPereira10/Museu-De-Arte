@@ -16,7 +16,7 @@ Este projeto é um site para um museu de arte, fornecendo informações sobre ex
 ## Instruções para Configuração e Execução Local
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/museu-de-arte.git
+    git clone https://github.com/HigorPereira10/museu-de-arte.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
